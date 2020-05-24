@@ -2,13 +2,33 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>test</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--自适应-->
+		<link rel="stylesheet" type="text/css" href="style.css"> <!--链入css-->
+		<link rel="icon" type="image/x-icon" href="img/icon.ico"> <!--网页标志图-->
+		<title>第一个程序</title>
 	</head>
+
 	<body>
-		<h1>Hello world!</h1>
-		<img alt="wife" src="img/A.png" width="888px" height="500px">
-		<p></p>
-		<a href="https://www.zhihu.com/people/uminosuke" target="_blank">谁是世界上最帅的人？</a>
+		<header>
+			<h1>Hello world</h1>
+		</header>
+
+		<section>
+			<img alt="wife" src="img/A.png" usemap="#book" width="888px" height="500px">
+			<map name="book">
+				<area shape="circle" coords="600,150,50" alt="Cup of coffee" href="page3.html" target="_blank">
+				<area shape="circle" coords="650,330,40" alt="Cup of coffee" href="page2.html" target="_blank">
+				<area shape="circle" coords="560,340,40" alt="Cup of coffee" href="page2.html" target="_blank">
+				<area shape="circle" coords="150,310,30" alt="Cup of coffee" href="page1.html" target="_blank">
+			</map>
+		</section>
+
+		<section>
+			<details>
+				<summary>谁是世界上最帅的人？</summary>
+				<a href="https://www.zhihu.com/people/uminosuke" target="_blank">点我看答案</a>
+				<a href="test.html" target="_blank">点我也可以</a>
+			</details>
+		</section>
 	<body>
 <html>
