@@ -1,0 +1,159 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+#welcome{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+}
+@-webkit-keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+#loader {
+    border: 16px solid whitesmoke;
+    border-radius: 50%;
+    border-top: 16px solid #e73c7e;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    margin-top: -76px;
+    margin-left: -76px;
+}  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); border-top: 16px solid #ee7752;}
+    25% { -webkit-transform: rotate(90deg); border-top: 16px solid #e73c7e;}
+    50% { -webkit-transform: rotate(180deg); border-top: 16px solid #23a6d5;}
+    75% { -webkit-transform: rotate(270deg); border-top: 16px solid #23d5ab;}
+    100% { -webkit-transform: rotate(360deg); border-top: 16px solid #ee7752;}
+}
+#xcw{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+}   
+h2{
+    color: whitesmoke;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-left: -40px;
+
+}
+#text{
+    width: 50px;
+    height: 22px;
+    padding-left: 5px;
+    overflow: hidden;
+    color: whitesmoke;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    position: absolute;
+    top: 100%;
+    margin-top: -22px;
+}
+#text:hover {
+    width: 280px;
+}
+.box{
+    height: 100%;
+    padding: 18px 18px 18px 18px;
+}
+.box:hover{
+    padding: 0px;
+    -webkit-animation: big 2s;
+}
+@-webkit-keyframes big {
+	0% {padding: 18px 18px 18px 18px;}
+	100% {padding: 0px;}
+}
+#wife_1{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/nozomi_1.png);
+    background-size: 100% 100%;
+}
+#wife_1:hover{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/nozomi_2.png);
+    background-size: 100% 100%;
+    -webkit-animation: wife_1 2s;
+}
+@-webkit-keyframes wife_1 {
+	0% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/nozomi_1.png);
+        background-size: 100% 100%;}
+	100% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/nozomi_2.png);
+        background-size: 100% 100%;}
+}
+#wife_2{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/natsume_1.png);
+    background-size: 100% 100%;
+}
+#wife_2:hover{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/natsume_2.png);
+    background-size: 100% 100%;
+    -webkit-animation: wife_2 2s;
+}
+@-webkit-keyframes wife_2 {
+	0% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/natsume_1.png);
+        background-size: 100% 100%;}
+	100% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/natsume_2.png);
+        background-size: 100% 100%;}
+}
+#wife_3{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/kanna_1.png);
+    background-size: 100% 100%;
+}
+#wife_3:hover{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(image/kanna_2.png);
+    background-size: 100% 100%;
+    -webkit-animation: wife_3 2s;
+}
+@-webkit-keyframes wife_3 {
+	0% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/kanna_1.png);
+        background-size: 100% 100%;}
+	100% {display: block;
+        height: 100%;
+        width: 100%;
+        background: url(image/kanna_2.png);
+        background-size: 100% 100%;}
+}
